@@ -7,7 +7,7 @@ header {
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
-  background-color: rgb(194, 45, 45);
+  color: rgb(92, 79, 79);
 }
 
 nav{
@@ -25,11 +25,11 @@ nav a {
 }
 
 section{
-    background-color: blue;
     padding: 0px 40px;
 }
 
 .section_header{
+    align-items: center;
     color: white;
     background-color: black;
     display: flex;
@@ -39,17 +39,14 @@ section{
 .bottom_section{
     display: flex;
     width: 100%;
-    background-color: aqua;
 
 }
 
 article{
-    background-color: bisque;
     width: 70%;
 }
 
 aside{
-    background-color: chartreuse;
     width: 30%;
 }
 
@@ -62,17 +59,15 @@ aside{
 }
 
 .article_body{
-    background-color: green ;
 }
 
 .article_body_item{
     display: flex;
     padding: 10px 10px;
     align-items: center;
-}
-
-.item_body{
-    
+    justify-content: space-between;
+    margin: 5px 0;
+    box-shadow: 2px 4px 12px rgb(189, 183, 183);
 }
 
 .item_title{
@@ -87,4 +82,9 @@ aside{
     background-color: gray;
     height: 64;
     width: 64;
+}
+
+.item_author{
+    color: gray;
+
 }
